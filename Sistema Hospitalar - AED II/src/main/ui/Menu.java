@@ -1,4 +1,6 @@
+import java.util.Scanner;
 public class Menu{
+    Scanner scanner = new Scanner(System.in);
     public void iniciar(){
         int opcao;
         do{

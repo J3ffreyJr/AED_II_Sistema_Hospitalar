@@ -5,10 +5,10 @@ public class HeapPrioridade{
     public void remover(){
 
     }
-    public heapifyUp(int index){
+    public void heapifyUp(int index){
         // Lógica para manter a propriedade de heap após a inserção
     }
-    public heapifyDown(int index){
+    public void heapifyDown(int index){
         // Lógica para manter a propriedade de heap após a remoção
     }
 }
