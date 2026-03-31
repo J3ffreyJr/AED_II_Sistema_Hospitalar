@@ -3,7 +3,7 @@ public class HeapPrioridade{
 
     }
     public void remover(){
-
+        //logica para rmover o paciente de maior prioridade (raiz do heap)
     }
     public void heapifyUp(int index){
         // Lógica para manter a propriedade de heap após a inserção
