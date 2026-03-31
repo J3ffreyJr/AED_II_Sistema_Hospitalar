@@ -9,6 +9,6 @@ public class HeapPrioridade{
         // Lógica para manter a propriedade de heap após a inserção
     }
     public void heapifyDown(int index){
-        // Lógica para manter a propriedade de heap após a remoção
+        // Lógica para manter a propriedade de heap após a remoção -
     }
 }
