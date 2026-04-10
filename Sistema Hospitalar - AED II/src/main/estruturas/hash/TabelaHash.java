@@ -1,3 +1,6 @@
+package estruturas.hash;
+import model.Paciente;
+
 public class TabelaHash {
     public void inserir(Paciente p) {
         // Lógica para inserir um paciente na tabela hash

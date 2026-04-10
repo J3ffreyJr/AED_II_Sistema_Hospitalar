@@ -1,3 +1,6 @@
+package estruturas.heap;
+import model.Paciente;
+
 public class HeapPrioridade{
     public void inserir(Paciente p){
 

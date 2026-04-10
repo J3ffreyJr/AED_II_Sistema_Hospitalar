@@ -1,4 +1,4 @@
-package main.model;
+package model;
 
 public class Paciente {
     private int id;
@@ -20,6 +20,19 @@ public class Paciente {
         this.endereco = endereco;
         this.prioridade = prioridade;
     }
+
+    @Override
+    public String toString(){
+        return "Paciente{" +
+                "id=" + id +
+                ", nome='" + nome +
+                '\'' + ", idade=" + idade +
+                ", bi='" + bi +
+                '\'' + ", telefone='" + telefone +
+                '\'' + ", endereco='" + endereco +
+                '\'' + ", prioridade ='" + prioridade + '\'' + '}';
+    }
+
 
     //Getters 
     public int getId(){
@@ -71,17 +84,6 @@ public class Paciente {
     }
     public void setPrioridade(String prioridade){
         this.prioridade = prioridade;
-    }
-
-    public String toString(){
-        return "Paciente{" + 
-        "id=" + id + 
-        ", nome='" + nome + 
-        '\'' + ", idade=" + idade + 
-        ", bi='" + bi + 
-        '\'' + ", telefone='" + telefone + 
-        '\'' + ", endereco='" + endereco + 
-        '\'' + ", prioridade ='" + prioridade + '\'' + '}';
     }
 
 }

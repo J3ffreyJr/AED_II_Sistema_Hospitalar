@@ -1,4 +1,6 @@
-import main.model.Paciente;
+package estruturas.hash;
+
+import model.Paciente;
 
 public class EntradaHash {
     int chave;

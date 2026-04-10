@@ -1,4 +1,13 @@
-public class SistemaAtendimento{
+package service;
+
+import model.Paciente;
+import estruturas.pilha.Pilha;
+import estruturas.fila.Fila;
+import estruturas.hash.*;
+import estruturas.heap.HeapPrioridade;
+import estruturas.lista.ListaDuplamenteLigada;
+
+public class SistemaAtendimento {
     private Fila filaNormal;
     private HeapPrioridade filaPrioritaria;
     private TabelaHash tabela;
@@ -6,25 +15,26 @@ public class SistemaAtendimento{
     private Pilha operacoes;
 
 
-
-    public void inserirPaciente(Paciente p){
-        //Temos ou devemos criar lógica para inserir paciente na fila normal ou prioritária
+    public void inserirPaciente(Paciente p) {
+        //TODO: Temos ou devemos criar lógica para inserir paciente na fila normal ou prioritária
     }
 
-    public Paciente atenderPaciente(){
-        //
+    public Paciente atenderPaciente() {
+        //TODO: Operacao de atender o paciente removendo o da estrutura de dados em que se encontra
+        return null;
     }
 
-    public Paciente buscarPaciente(int id){
-        //Pensar em como buscar paciente atraves do id ou bi, temos que decidir qual e o parametro de busca
+    public Paciente buscarPaciente(int id) {
+        //TODO: Pensar em como buscar paciente atraves do id ou bi, temos que decidir qual e o parametro de busca
+        return null;
     }
 
-    public void removerPaciente(int id){
-        //Remover paciente decidi colocar assim porque com o id seria mais facil em relacao a bi, mas isso é algo que podemos discutir
+    public void removerPaciente(int id) {
+        //TODO: Remover paciente decidi colocar assim porque com o id seria mais facil em relacao a bi, mas isso é algo que podemos discutir
     }
 
-    public void desfazerUltimaOperacao(){
-        //Desfazer ultima operacao, seja ela inserir ou atender paciente
+    public void desfazerUltimaOperacao() {
+        //TODO: Desfazer ultima operacao, seja ela inserir ou atender paciente
     }
 
 }
